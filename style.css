@@ -156,6 +156,14 @@ body {
   .navbar{
     justify-content: left;
     width: 100%;
+    
+  }
+  .rodape{
+    text-align: left;
+    font-size: 1rem;
+  }
+  .navbar__itens__links{
+    font-size: 1rem;
   }
 }
 
