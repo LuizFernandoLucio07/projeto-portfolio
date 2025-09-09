@@ -153,5 +153,18 @@ body {
     width: 60%;
     height: 60%;
   }
+  .rodape{
+  font-family: 0;
+  font-size: 0;
+  text-align: 0;
+  padding: 0;
+  color: 0;
+  background-color:0;
+  position: 0;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  
+}
 }
 
