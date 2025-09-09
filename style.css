@@ -153,17 +153,5 @@ body {
     width: 60%;
     height: 60%;
   }
-  .navbar{
-    justify-content: left;
-    width: 100%;
-    
-  }
-  .rodape{
-    text-align: center;
-    font-size: 1rem;
-  }
-  .navbar__itens__links{
-    font-size: 1rem;
-  }
 }
 
