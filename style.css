@@ -35,21 +35,20 @@ body {
 }
 
 .navbar {
-
   display: flex;
-  align-items: center;     
-  justify-content: space-evenly;
-  padding: 0 15px;          
+  align-items: center;
+  justify-content: space-evenly; /* espaça os links e os ícones */
+  padding: 0 20px;
   color: var(--cor__secundaria);
-  width: 78%;
+  width: 100%;              /* ocupa toda a tela */
   height: 80px;
   border-radius: 0 0 15px 15px;
-  margin: 0 auto;
+  background-color: var(--cor__principal); /* garante cor de fundo até a borda */
 }
 
 .navbar__items {
-  display: flex;          
-  gap: 90px;               
+  display: flex;
+  gap: 40px; /* diminui um pouco o espaçamento */
 }
 
 .navbar__itens__links {
@@ -59,10 +58,9 @@ body {
    font-family: var(--fonte__primaria);
   
 }
-.navbar__icons__icon{
-    display: flex;          
-    gap: 40px; 
-    
+.navbar__icons__icon {
+  display: flex;
+  gap: 20px;
 }
 
 .conteudo{
@@ -150,6 +148,14 @@ body {
 @media(max-width: 600px){
   .conteudo{
     gap: 5px;
+  }
+  .foto{
+    width: 60%;
+    height: 60%;
+  }
+  .navbar{
+    justify-content: left;
+    width: 100%;
   }
 }
 
